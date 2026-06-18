@@ -56,6 +56,11 @@ window.addEventListener('scroll', () => {
   });
 });
 
+backTop.addEventListener('click', (e) => {
+  e.preventDefault();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
 reserveForm.addEventListener('submit', (e) => {
   e.preventDefault();
 
@@ -76,3 +81,12 @@ reserveForm.addEventListener('submit', (e) => {
     formMsg.style.color = '#c84d4d';
   }
 });
+
+const backTopFooter = document.getElementById('backTopFooter');
+
+if (backTopFooter) {
+  backTopFooter.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}
