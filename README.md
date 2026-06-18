@@ -107,7 +107,6 @@ Bloom-and-Brew/
 ├── index.html
 ├── style.css
 ├── script.js
-└── images/
 ```
 
 ---
