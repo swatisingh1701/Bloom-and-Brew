@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bloom & Brew | Sip • Bloom • Unwind</title>
+  <meta name="description" content="Bloom & Brew is a modern flower café website featuring coffee, desserts, bouquets, testimonials, reservations, dark mode, and responsive design." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav" id="top">
+    <div class="container nav-inner">
+      <a class="brand" href="#home">
+        <span class="logo">🌷</span>
+        <span>
+          <strong>Bloom & Brew</strong>
+          <small>Sip • Bloom • Unwind</small>
+        </span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#why">Why Us</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#reserve">Reserve</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <span>☀</span>
+          <span class="toggle-track"><span class="toggle-thumb"></span></span>
+          <span>☾</span>
+        </button>
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">A cozy flower café experience</span>
+          <h1>Where Flowers Meet Coffee.</h1>
+          <p>
+            Bloom & Brew is a warm and elegant café concept inspired by handcrafted coffee, fresh floral arrangements,
+            and the soft aesthetic of cozy Pinterest-style interiors.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn primary" href="#menu">Explore Menu</a>
+            <a class="btn secondary" href="#reserve">Reserve a Table</a>
+          </div>
+
+          <div class="hero-points">
+            <div>
+              <strong>Premium Coffee</strong>
+              <span>Freshly brewed, rich, and aromatic</span>
+            </div>
+            <div>
+              <strong>Fresh Florals</strong>
+              <span>Beautiful seasonal bouquet collections</span>
+            </div>
+            <div>
+              <strong>Cozy Ambience</strong>
+              <span>Relaxing corners with dreamy interiors</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="floating-card card-top-left">
+            <span>Today’s Special</span>
+            <strong>Rose Latte + Berry Tart</strong>
+          </div>
+          <div class="floating-card card-bottom-left">
+            <span>Open Daily</span>
+            <strong>8:00 AM - 10:00 PM</strong>
+          </div>
+          <div class="floating-card card-bottom-right">
+            <span>Fresh Bouquet Corner</span>
+            <strong>Hand-tied floral gifts</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="container section-space">
+      <div class="section-heading">
+        <div>
+          <span class="section-tag">Signature Menu</span>
+          <h2>Coffee, Desserts & Bouquets</h2>
+        </div>
+        <p>
+          A curated selection of coffee drinks, handmade desserts, and floral arrangements designed for a relaxing café experience.
+        </p>
+      </div>
+
+      <div class="grid-3">
+        <article class="info-card menu-card">
+          <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80" alt="Coffee collection" />
+          <div class="card-content">
+            <h3>Coffee Collection</h3>
+            <p>Espresso, cappuccino, rose latte, mocha cloud, and cold brew made with care.</p>
+            <span>From ₹180</span>
+          </div>
+        </article>
+
+        <article class="info-card menu-card">
+          <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=80" alt="Dessert collection" />
+          <div class="card-content">
+            <h3>Dessert Collection</h3>
+            <p>Cheesecake, brownies, tiramisu jars, mini tarts, and soft homemade bakes.</p>
+            <span>From ₹120</span>
+          </div>
+        </article>
+
+        <article class="info-card menu-card">
+          <img src="https://images.unsplash.com/photo-1519377345644-937ef9754747?auto=format&fit=crop&w=900&q=80" alt="Flower bouquet collection" />
+          <div class="card-content">
+            <h3>Bouquet Collection</h3>
+            <p>Hand-tied roses, pastel lilies, dried blooms, and custom floral gift wraps.</p>
+            <span>From ₹350</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="why" class="container section-space">
+      <div class="section-heading">
+        <div>
+          <span class="section-tag">Why Choose Us</span>
+          <h2>A café made for comfort</h2>
+        </div>
+        <p>
+          We blend quality ingredients, soft aesthetics, and welcoming service to create a space people want to return to.
+        </p>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card">
+          <h3>Premium Coffee</h3>
+          <p>Freshly prepared drinks with balanced flavor and a satisfying café aroma.</p>
+        </div>
+        <div class="why-card">
+          <h3>Fresh Flowers</h3>
+          <p>Seasonal floral arrangements that bring color, fragrance, and elegance.</p>
+        </div>
+        <div class="why-card">
+          <h3>Homemade Desserts</h3>
+          <p>Soft, sweet, and comforting desserts made to pair perfectly with coffee.</p>
+        </div>
+        <div class="why-card">
+          <h3>Comfortable Ambience</h3>
+          <p>Soft lighting, cozy seats, and a Pinterest-inspired setting for relaxation.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="container section-space">
+      <div class="section-heading">
+        <div>
+          <span class="section-tag">Gallery Showcase</span>
+          <h2>Visual moments from Bloom & Brew</h2>
+        </div>
+        <p>
+          A larger, more detailed gallery layout with hover effects, layered cards, and a soft editorial look.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="gallery-item large">
+          <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1200&q=80" alt="Cafe interior" />
+          <figcaption>
+            <strong>Cozy interior</strong>
+            <span>Warm lights, wooden textures, and calm seating.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item tall">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1200&q=80" alt="Coffee closeup" />
+          <figcaption>
+            <strong>Signature brew</strong>
+            <span>Freshly poured coffee served with style.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1466637574441-749b8f19452f?auto=format&fit=crop&w=900&q=80" alt="Flower bouquet" />
+          <figcaption>
+            <strong>Flower corner</strong>
+            <span>Soft pastel bouquets and seasonal blooms.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1507149833265-60c372daea22?auto=format&fit=crop&w=900&q=80" alt="Dessert table" />
+          <figcaption>
+            <strong>Sweet treats</strong>
+            <span>Beautiful desserts made for every mood.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1498579809087-ef1e558fd1da?auto=format&fit=crop&w=900&q=80" alt="Cozy table setting" />
+          <figcaption>
+            <strong>Reading nook</strong>
+            <span>A peaceful space for coffee and conversations.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item wide">
+          <img src="https://images.unsplash.com/photo-1484156818044-c040038b0719?auto=format&fit=crop&w=1200&q=80" alt="Cafe counter" />
+          <figcaption>
+            <strong>Freshly prepared</strong>
+            <span>Every drink and dessert crafted with attention to detail.</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="testimonials" class="container section-space">
+      <div class="section-heading">
+        <div>
+          <span class="section-tag">Testimonials</span>
+          <h2>What customers say</h2>
+        </div>
+        <p>
+          Friendly feedback cards that add trust and make the site feel warm and personal.
+        </p>
+      </div>
+
+      <div class="testimonial-grid">
+        <article class="testimonial-card">
+          <p>“The café feels dreamy and peaceful. The flowers are gorgeous and the rose latte is unforgettable.”</p>
+          <strong>★★★★★ A perfect hideaway</strong>
+        </article>
+        <article class="testimonial-card">
+          <p>“Every corner looks Instagram-ready. It’s the kind of place you want to stay in for hours.”</p>
+          <strong>★★★★★ Beautifully designed</strong>
+        </article>
+        <article class="testimonial-card">
+          <p>“The coffee and desserts are both amazing, and the bouquet counter makes it feel extra special.”</p>
+          <strong>★★★★★ Best dessert pairing</strong>
+        </article>
+        <article class="testimonial-card">
+          <p>“The ambience is so warm and aesthetic. Perfect for dates, catch-ups, and quiet study time.”</p>
+          <strong>★★★★★ Cozy and classy</strong>
+        </article>
+      </div>
+    </section>
+
+    <section id="reserve" class="container section-space">
+      <div class="section-heading">
+        <div>
+          <span class="section-tag">Reservation Form</span>
+          <h2>Book your cozy table</h2>
+        </div>
+        <p>
+          Includes JavaScript validation and a confirmation message after a successful booking.
+        </p>
+      </div>
+
+      <div class="reserve-grid">
+        <div class="reserve-banner">
+          <div class="reserve-overlay">
+            <h3>Plan your visit</h3>
+            <p>
+              Whether you’re coming for coffee, flowers, study time, or a sweet meet-up, Bloom & Brew is ready to welcome you.
+            </p>
+          </div>
+        </div>
+
+        <form class="reserve-form" id="reserveForm">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" required placeholder="Your full name" />
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" required placeholder="you@example.com" />
+          </div>
+
+          <div class="field">
+            <label for="guests">Guest Count</label>
+            <select id="guests" required>
+              <option value="">Select guests</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4+">4+</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="date">Date & Time</label>
+            <input type="datetime-local" id="date" required />
+          </div>
+
+          <div class="field">
+            <label for="notes">Notes</label>
+            <textarea id="notes" placeholder="Any flower, seating, or dessert preference?"></textarea>
+          </div>
+
+          <button type="submit" class="btn primary full">Confirm Reservation</button>
+          <p id="formMsg" class="form-message"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="container section-space" id="contact">
+      <div class="section-heading">
+        <div>
+          <span class="section-tag">Contact & Hours</span>
+          <h2>Find us easily</h2>
+        </div>
+        <p>
+          Clear contact details, opening hours, and location information help the site feel complete and practical.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Visit Us</h3>
+          <p>Bloom & Brew Café, Delhi, India</p>
+        </div>
+        <div class="contact-card">
+          <h3>Hours</h3>
+          <p>Mon - Sun: 8:00 AM - 10:00 PM</p>
+        </div>
+        <div class="contact-card">
+          <h3>Call</h3>
+          <p>+91 98765 43210</p>
+        </div>
+        <div class="contact-card">
+          <h3>Email</h3>
+          <p>hello@bloomandbrew.com</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <div>
+      <h2>Bloom & Brew</h2>
+      <p>Sip • Bloom • Unwind</p>
+    </div>
+    <p class="small">Made with ❤️ and lots of coffee.</p>
+  </footer>
+
+  <a href="#top" class="backtop" id="backTop">↑ Top</a>
+  <script src="script.js"></script>
+</body>
+</html>
